@@ -1,6 +1,6 @@
 name: CII
 
-on: [commit]
+on: [pull_request]
 
 jobs:
   build:
