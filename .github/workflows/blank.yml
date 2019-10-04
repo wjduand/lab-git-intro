@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses : "PyCQA/pylint/github_actions@master"
+    - uses : "cclauss/GitHub-Action-for-pylint@0.7.0"
     - args : "pylint **/*.py"
