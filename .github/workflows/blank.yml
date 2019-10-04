@@ -9,4 +9,4 @@ jobs:
     
     steps:
     - uses : "PyCQA/pylint/github_actions@master"
-    - run : "pylint **/*.py"
+    - run : pylint **/*.py
