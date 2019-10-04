@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses : "cclauss/GitHub-Action-for-pylint@0.7.0"
+    - uses : "cclauss/GitHub-Action-for-pylint/entrypoint.sh"
     - args : "pylint **/*.py"
