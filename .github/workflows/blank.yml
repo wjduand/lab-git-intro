@@ -1,0 +1,12 @@
+name: CII
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses : "PyCQA/pylint/github_actions@master"
+    - run : "pylint **/*.py"
