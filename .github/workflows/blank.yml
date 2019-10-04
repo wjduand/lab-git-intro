@@ -1,6 +1,6 @@
 name: CII
 
-on: [push]
+on: [commit]
 
 jobs:
   build:
